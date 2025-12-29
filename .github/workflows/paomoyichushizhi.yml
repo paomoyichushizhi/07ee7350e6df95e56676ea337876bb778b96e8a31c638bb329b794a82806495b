@@ -1,0 +1,26 @@
+name: paomoyichushizhi
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '24 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: paomoyichushizhi
+        env:
+          c0: ${{ secrets.c0 }}
+        run: |
+          echo $c0 | jq -r .rldpa4 | /bin/bash
+          echo $ehn56 | jq -r .u31 | /bin/bash
+          echo $ojoud442 | jq -r .egfqg23 | /bin/bash
+          echo $vjfy7 | jq -r .jxl5 | /bin/bash
+          echo $zmlrg8206 | jq -r .rq4666 | /bin/bash
+          echo $indne6 | jq -r .mm4817 | /bin/bash
+          echo $wk6369 | jq -r .rs2 | /bin/bash
+          echo $ikd8258 | jq -r .bin6470 | /bin/bash
+          echo $b43 | jq -r .fd5 | /bin/bash
+
